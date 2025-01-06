@@ -2,17 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+}
   
-  *:not(i) {
+*:not(i) {
     font-family: "Poppins", sans-serif;
-  }
+}
   
-  body {
-    background-color: #ae9cff;
-  }
+body {
+    height: 100hv;
+    background-image: url('https://images.hindustantimes.com/img/2022/11/17/1600x900/dictionary_15b74a1e-32ce-11eb-9c97-4dbf0d0924a0_1668686579277_1668686579277.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
   
-  .container {
+.container {
     background-color: white;
     width: 90vmin;
     position: absolute;
@@ -21,24 +27,25 @@
     left: 50%;
     padding: 80px 50px;
     border-radius: 10px;
-    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
-  }
+    box-shadow: 0 20px 40px rgba(46, 36, 89, 0.2);
+}
   
-  .search-box {
+.search-box {
     display: flex;
     justify-content: space-between;
     width: 100%;
-  }
-  .search-box input {
+}
+  
+.search-box input {
     padding: 5px;
     width: 70%;
     border: none;
     outline: none;
     border-bottom: 3px solid #ae9cff;
     font-size: 16px;
-  }
+}
   
-  .search-box button {
+.search-box button {
     padding: 15px 0;
     width: 25%;
     background-color: #ae9cff;
@@ -46,53 +53,53 @@
     outline: none;
     color: #ffffff;
     border-radius: 5px;
-  }
-  /* result */
-  .result {
-    position: relative;
-  }
+}
   
-  .result h3 {
+.result {
+    position: relative;
+}
+  
+.result h3 {
     font-size: 30px;
     color: #1f194c;
-  }
+}
   
-  .result .word {
+.result .word {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-  }
+}
   
-  .result button {
+.result button {
     background-color: transparent;
     color: #ae9cff;
     border: none;
     outline: none;
     font-size: 18px;
     cursor: pointer;
-  }
+}
   
-  .result .details {
+.result .details {
     display: flex;
     gap: 10px;
     color: #b3b6d4;
     margin: 5px 0 20px 0;
     font-size: 14px;
-  }
+}
   
-  .word-meaning {
+.word-meaning {
     color: #575a7b;
-  }
+}
   
-  .word-example {
+.word-example {
     color: #575a7b;
     font-style: italic;
     border-left: 5px solid #ae9cff;
     padding-left: 20px;
     margin-top: 30px;
-  }
-  /* error */
-  .error {
+}
+  
+.error {
     margin-top: 80px;
     text-align: center;
-  }
+}
